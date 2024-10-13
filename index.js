@@ -14,7 +14,7 @@ app.use(fileUpload());
 app.use(express.json());
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(cors({
-  origin: 'https://your-netlify-site.netlify.app' 
+  origin: 'https://socialmediaf.netlify.app/' 
 }));
 
 const dbConnect = require("./config/database");
